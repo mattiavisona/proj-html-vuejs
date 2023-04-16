@@ -14,15 +14,21 @@ import AppHeader from "./components/AppHeader.vue"
 
 <template>
   <div class="container">
+
     <AppHeader></AppHeader>
     
-    
   </div>
+    
+  
 </template>
 
 
 <style scoped>
-    .container{
-      margin: auto 250px;
-    }
+    
+      .container{
+        margin: 0 200px;
+        
+      }
+
+
 </style>

@@ -36,6 +36,7 @@
         </div>
         
         <div id="footer-up">
+            <img id="dance" src="/img/avada-nightclub-homepage-image.png" alt="">
             <h1 class="title">making memories all night long</h1>
             <span id="vip">become a vip</span>
             <img id="view_club" src="/img/avada-nightclub-play-showreel.png" height="50px" alt="">
@@ -83,13 +84,15 @@
     #footer-up{
        
         display: flex;
-        padding-top: 500px;
+        padding-top: 220px;
         align-items: center;
         flex-direction: column;
-        
-        
-        
     }
+        
+     #dance{
+        height: 300px;
+     }   
+        
 
     .title{
         background-color: #0000009c; 

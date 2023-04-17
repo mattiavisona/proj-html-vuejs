@@ -75,6 +75,7 @@
     color: #f63c81;
     border-bottom: 2px solid #f63c81;
     font-size: larger;
+    transition: 0.5s;
 }
     .item{
         cursor: pointer;
@@ -111,7 +112,15 @@
 
         text-transform: uppercase;
         font-weight: bold;
+        cursor: pointer;
 
+    }
+
+    #vip:hover{
+        background-color: rgb(158, 122, 81);
+        transition: 1s;
+
+        color: black;
     }
 
     #view_club{
